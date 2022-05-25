@@ -313,3 +313,50 @@ img, svg {
     height: 100%;
     background-color: #B8FF20;
 }
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-color: #18171A;
+    color: #fff;
+}
+
+.footer__logo {
+    height: 34px;
+    margin-bottom: 40px;
+}
+
+.footer__columns {
+    display: flex;
+    gap: 120px;
+}
+
+.footer__column {
+    max-width: 280px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contacts__social {
+    margin-top: 10px;
+}
+
+.social__item {
+    max-width: 46px;
+    max-width: 46px;
+}
+
+.footer__copyright {
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 1.3;
+}
