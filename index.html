@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <script src="index.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YourAPIkey&lang=en_US" defer type="text/javascript">
+    </script>
+    <script src="index.js" defer></script>
     <title>E-trans - начни двигаться по-новому</title>
 </head>
 
@@ -43,7 +45,7 @@
         </section>
         <section class="product" id="gyroscooters">
             <div class="container product__container">
-                <img src="img/gyro.png" alt="gyroscooter">
+                <img class="product__photo" src="img/gyro.png" alt="gyroscooter">
                 <div class="product__content">
                     <h2 class="product__title">Гироскутер</h2>
                     <p class="product__description">Гироскутер — уличное электрическое транспортное средство,
@@ -66,12 +68,12 @@
                         Шейном Ченом.</p>
                     <button class="product__btn">Выбрать</button>
                 </div>
-                <img src="img/mono.png" alt="monoweels">
+                <img class="product__photo" src="img/mono.png" alt="monoweels">
             </div>
         </section>
         <section class="product" id="electroscooters">
             <div class="container product__container">
-                <img src="img/electro.png" alt="electroscooters">
+                <img class="product__photo" src="img/electro.png" alt="electroscooters">
                 <div class="product__content">
                     <h2 class="product__title">Электросамокат</h2>
                     <p class="product__description">Работает электросамокат следующим образом. Аккумуляторная батарея
@@ -155,7 +157,7 @@
                 </div>
                 <div class="footer__column contacts">
                     <h3 class="footer__title">Контакты:</h3>
-                    <div class="contacts__list">
+                    <div class=" contacts__list contacts__list-footer">
                         <a class="contacts__link" href="tel:+7(384)883-38-12">+7(384)883-38-12</a>
 
                         <a class="contacts__link" href="mailto:ETrans@gmail.com">+7(384)883-38-12</a>
