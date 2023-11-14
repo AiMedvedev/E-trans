@@ -121,6 +121,3 @@ productBtn.forEach((btn, index) => {
     createModal(title, description);
   });
 });
-
-
-
